@@ -45,7 +45,7 @@ const Services = (props: Props) => {
     >
       <div className="container mx-auto">
         <motion.div
-          initial={{ opacity: 1 }}
+          initial={{ opacity: 0 }}
           animate={{
             opacity: 1,
             transition: {
