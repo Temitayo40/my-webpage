@@ -28,12 +28,12 @@ const info = [
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "youremail@gmail.com",
+    description: "damilolaadebowale88@gmail.com",
   },
   {
     icon: <FaPhoneAlt />,
     title: "Address",
-    description: "Code Corner, Tech Town 123",
+    description: "Available",
   },
 ];
 
@@ -55,8 +55,8 @@ const Contact = (props: Props) => {
                 Let&rsquo;s work togther
               </h3>
               <p className="text-white/60">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit,
-                dolorem? Culpa necessitatibus libero doloremque molestias.
+                How about this: Let&apos;s work together to bring your vision to
+                life. Contact us to start your project today!
               </p>
               {/* imputs */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
