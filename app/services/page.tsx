@@ -10,28 +10,28 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, provident!",
+      "With over 4 years of experience, I specialize in front-end development, focusing on creating user-friendly web interfaces using HTML, CSS, JavaScript, and popular frameworks like React and NextJS",
     href: "",
   },
   {
     num: "02",
-    title: "ux Development",
+    title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, provident!",
+      "With over 4 years of experience, I specialize in front-end development, focusing on creating user-friendly web interfaces using HTML, CSS, JavaScript, and popular frameworks like React and NextJS",
     href: "",
   },
   {
     num: "03",
-    title: "Logo Development",
+    title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, provident!",
+      "With over 4 years of experience, I specialize in front-end development, focusing on creating user-friendly web interfaces using HTML, CSS, JavaScript, and popular frameworks like React and NextJS",
     href: "",
   },
   {
     num: "04",
-    title: "Java Development",
+    title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, provident!",
+      "With over 4 years of experience, I specialize in front-end development, focusing on creating user-friendly web interfaces using HTML, CSS, JavaScript, and popular frameworks like React and NextJS",
     href: "",
   },
 ];
