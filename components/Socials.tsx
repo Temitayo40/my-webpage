@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { FaGithub, FaLinkedinIn, FaYoutube, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaMailBulk, FaTwitter } from "react-icons/fa";
 
 type Props = {
   containerStyles: string;
@@ -8,10 +8,13 @@ type Props = {
 };
 
 const socials = [
-  { icon: <FaGithub />, path: "" },
-  { icon: <FaLinkedinIn />, path: "" },
-  { icon: <FaYoutube />, path: "" },
-  { icon: <FaTwitter />, path: "" },
+  { icon: <FaGithub />, path: "https://github.com/Temitayo40/" },
+  {
+    icon: <FaLinkedinIn />,
+    path: "https://www.linkedin.com/in/adebowale-damilola/",
+  },
+  { icon: <FaMailBulk />, path: "https://damilolaadebowale88@gmail.com" },
+  { icon: <FaTwitter />, path: "https://x.com/Dharmmycrown" },
 ];
 const Socials = (props: Props) => {
   const { iconStyles, containerStyles } = props;

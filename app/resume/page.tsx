@@ -22,11 +22,11 @@ import { motion } from "framer-motion";
 const about = {
   title: "About Me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque corporis exercitationem ullam.",
+    "Let me tell you a little about myself. I'm a passionate frontend developer with expertise in HTML, CSS, JavaScript, React.js, and Next.js. Despite not having a formal background in tech during my BSc, my enthusiasm for technology drove me to dive into this field. I'm constantly eager to stay updated with the latest tech innovations and trends. I have hands-on experience working with RESTful APIs, Node.js, and MongoDB, and I'm skilled in state management. Whether working independently or as part of a team, I strive for excellence in performance optimization and code efficiency. Outside of work, I enjoy swimming, which helps me stay balanced and refreshed.",
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Luke coleman",
+      fieldValue: "Adebowale Damilola",
     },
     {
       fieldName: "Phone",
@@ -63,38 +63,23 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet mollitia quisquam veritatis.",
+    "Proven track record in building scalable, responsive web applications, enhancing UI/UX, and implementing state management using react-query, redux, and Context API. Skilled in integrating RESTful APIs, working with Node.js and MongoDB, optimizing code for performance, and collaborating effectively with cross-functional teams, including designers and product managers.",
 
   items: [
     {
-      company: "Tech Solutions Inc",
-      position: "Full stack deveoper",
-      duration: "2022 - present",
+      company: "Rubies Technology",
+      position: "Frontend Developer",
+      duration: "2023",
     },
     {
-      company: "Web Designer  nc",
-      position: "Full stack deveoper",
-      duration: "2023-2023",
+      company: "Ingressive X Zuri Internship",
+      position: "Frontend Developer",
+      duration: "2023",
     },
     {
-      company: "Frontend Inc",
-      position: "Full stack deveoper",
-      duration: "2022 - present",
-    },
-    {
-      company: "FrontEnd Solutions Inc",
-      position: "Full stack deveoper",
-      duration: "2022 - sumer",
-    },
-    {
-      company: "FrontEnd Solutions Inc",
-      position: "Full stack deveoper",
-      duration: "2022 - sumer",
-    },
-    {
-      company: "FrontEnd Solutions Inc",
-      position: "Full stack deveoper",
-      duration: "2022 - sumer",
+      company: "Teekay Tech",
+      position: "Frontend Developer",
+      duration: "2022 - 2024",
     },
   ],
 };
@@ -103,7 +88,7 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet mollitia quisquam veritatis.",
+    "Gained strong skills in HTML, CSS, JavaScript, React.js, and Next.js through coursework and projects. Experienced in working with RESTful APIs, Node.js, and MongoDB. Developed problem-solving and collaboration skills through group projects and internships.",
 
   items: [
     {
@@ -132,7 +117,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet mollitia quisquam veritatis.",
+    "Skilled frontend developer with expertise in HTML, CSS, JavaScript, React.js, and Next.js. Experienced in integrating backend services using RESTful APIs and Node.js, and proficient with MongoDB. Adept at state management with Redux and Context API, and focused on performance optimization and code efficiency. Strong collaborator with experience in cross-functional teamwork, mentoring junior developers, and effective communication.",
 
   skillList: [
     {
@@ -325,7 +310,7 @@ const Resume = (props: Props) => {
             </TabsContent>
           </div>
         </Tabs>
-      </div>{" "}
+      </div>
     </motion.div>
   );
 };
