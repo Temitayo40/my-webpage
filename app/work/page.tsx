@@ -25,8 +25,6 @@ const projects = [
     description:
       "The app features a table view for cabins, bookings, and guest data. Users can manage cabins, bookings, and breakfast options. The dashboard shows data from the past 7–30 days, including check-ins and check-outs. Configurable settings and a dark mode option are available.",
     stack: [
-      { name: "Html 5" },
-      { name: "Css 3" },
       { name: "JavaScript" },
       { name: "React js" },
       { name: "Tailwind css" },
@@ -43,8 +41,6 @@ const projects = [
     description:
       "Our user-friendly web app simplifies pizza ordering with easy input of names, phone numbers, and addresses, ensuring efficient delivery and hassle-free payment.",
     stack: [
-      { name: "Html 5" },
-      { name: "Css 3" },
       { name: "JavaScript" },
       { name: "React js" },
       { name: "Tailwind css" },
@@ -114,7 +110,7 @@ const Work = (props: Props) => {
               {/* project description */}
               <p className="text-white/60">{project.description}</p>
               {/* stack */}
-              <ul className="flex gap-4">
+              <ul className="flex sm:grid sm:grid-cols-2 gap-4">
                 {project.stack.map((item, index) => {
                   return (
                     <li className="text-xl text-yellow-400" key={index}>
