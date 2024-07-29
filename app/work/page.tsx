@@ -110,7 +110,7 @@ const Work = (props: Props) => {
               {/* project description */}
               <p className="text-white/60">{project.description}</p>
               {/* stack */}
-              <ul className="flex sm:grid sm:grid-cols-2 gap-4">
+              <ul className="flex flex-col md:flex-row gap-4">
                 {project.stack.map((item, index) => {
                   return (
                     <li className="text-xl text-yellow-400" key={index}>
